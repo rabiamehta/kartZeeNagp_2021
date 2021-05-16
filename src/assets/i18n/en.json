@@ -1,0 +1,113 @@
+{
+    "HOME": {
+        "LANGUAGE": "Language",
+        "SEARCH": "Search for any product by its tag",
+        "PROFILE": {
+            "TITLE": "Profile",
+            "ITEM_1": "Login / SignUp",
+            "ITEM_2": "LogOut"
+        },
+        "BAG": "Bag"
+    },
+    "FOOTER": {
+        "APP": "KartZee",
+        "BY": "by Rabia Mehta",
+        "UNDER": "Made under",
+        "ORG": "NAGP",
+        "PROG": "training"
+    },
+    "LOGIN": {
+        "TITLE": "Log In",
+        "LABELS": {
+            "EMAIL": "Email Id",
+            "PSW": "Password",
+            "FORGOT_PSW": "Forgot password?",
+            "NOT_MEMBER": "Not a member? ",
+            "REGISTER": "Register",
+            "SIGNIN": "or sign in with"
+        },
+        "PLACEHOLDER": {
+            "EMAIL": "Enter the registered email ID",
+            "PSW": "Enter the password with min 5 characters"
+        },
+        "ERRORS": {
+            "EMAIL_REQ": "Email is required",
+            "EMAIL_INVALID": "Email Pattern is invalid",
+            "PSW_REQ": "Password is required",
+            "PSW_INVALID": "Password length is less than required"
+        },
+        "BUTTONS": {
+            "LOGIN": "Log In"
+        }
+    },
+    "PRODUCT": {
+        "HOME": "Home",
+        "SEARCH": "Search",
+        "BEST": "BestSellers",
+        "PRD_404": " No Product found matching the searched query !",
+        "DETAIL": {
+            "TAX_TITLE": "(Inclusive of all taxes)",
+            "CATEGORY": "Category",
+            "IN_STOCK": "Stock",
+            "DESCRIPTION": "Description",
+            "TAGS": "Tags",
+            "BUTTON": "Add to Cart"
+        }
+    },
+    "CART": {
+        "OUT_OF_STOCK_ALERT": "Quantity has reached the max available amt in stocks !",
+        "HEADER": "Cart",
+        "ITEMS": "items",
+        "QTY": "Qty",
+        "REMOVE": "Remove item",
+        "TAG_LINE": "Do not delay the purchase, adding items to your cart does not mean booking them.",
+        "EXPECTED_DELIVERY": {
+            "TITLE": "Expected shipping delivery",
+            "DATE": "Thu., 12.03. - Mon., 16.03.",
+            "PAYMENT_MODE": "We accept"
+        },
+        "PRICE_DETAILS": {
+            "TITLE": "Price Details",
+            "SUB_TOTAL": "SubTotal Amount",
+            "SHIPPING": "Shipping",
+            "FREE": "FREE",
+            "TOTAL_AMT": "The total amount",
+            "VAT_NOTICE": "(including VAT)",
+            "DISCOUNT": "Add a discount code (optional)"
+        },
+        "CHECKOUT": "Go to checkout"
+    },
+    "CHECKOUT": {
+        "DELIVERY_DETAILS": {
+            "TITLE": "Add Delivery Details",
+            "PLACEHOLDERS": {
+                "F_NAME": "First name",
+                "L_NAME": "Last name",
+                "HINT_LABEL": "Max 10 characters",
+                "ADDRESS": "Address",
+                "PINCODE": "PinCode",
+                "CITY": "City",
+                "MOBILE": "Mobile Number"
+            },
+            "STATE": "State"
+        },
+        "PAYMENT_DETAILS": {
+            "LABEL": "Select Mode of Payment",
+            "TITLE": "Please select the payment mode !"
+        },
+        "ORDER": {
+            "STATUS": "Order Status",
+            "MESSAGE": "Order placed successfully !! "
+        },
+        "BUTTONS": {
+            "NEXT": "Next",
+            "BACK": "Back",
+            "CONTINUE": "Continue eKartingg"
+        }
+    },
+    "404": {
+        "TITLE": "We are sorry, Page not found!",
+        "SUB": "The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+        "BACK": "Go Back"
+    }
+}

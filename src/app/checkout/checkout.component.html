@@ -1,0 +1,92 @@
+<mat-horizontal-stepper #stepper [linear]='true' >
+    <!--  Delivery Details Form Group-->
+    <mat-step [stepControl]="firstFormGroup"  [editable]='! orderPlaced'>
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>{{'CHECKOUT.DELIVERY_DETAILS.TITLE' | translate}}</ng-template>
+        <div class="delivery-detail-container">
+          <mat-form-field hintLabel="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.HINT_LABEL' | translate}}">
+            <input matInput #input maxlength="10" placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.F_NAME' | translate}}" formControlName="firstName" required>
+          </mat-form-field>
+          <mat-form-field hintLabel="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.HINT_LABEL' | translate}}">
+            <input matInput placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.L_NAME' | translate}}" formControlName="lastName" required>
+          </mat-form-field>
+  
+          <div>
+            <mat-form-field>
+              <input matInput #input maxlength="40" placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.ADDRESS' | translate}}" formControlName="address" required>
+            </mat-form-field>
+            <div>
+              <mat-form-field>
+                <input matInput #input maxlength="6" placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.PINCODE' | translate}}" formControlName="pincode" required>
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.CITY' | translate}}" formControlName="city" required>
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field appearance="fill">
+                <mat-label>{{'CHECKOUT.DELIVERY_DETAILS.STATE' | translate}}</mat-label>
+                <mat-select required>
+                  <mat-option *ngFor="let state of states" [value]='state'>
+                    {{state}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field>
+                <input matInput #input type="tel" maxlength="10" placeholder="{{'CHECKOUT.DELIVERY_DETAILS.PLACEHOLDERS.MOBILE' | translate}}" formControlName="number" required>
+              </mat-form-field>
+            </div>
+            <hr>
+            <div>
+              <button mat-raised-button matStepperNext [disabled]="firstFormGroup.invalid">{{'CHECKOUT.BUTTONS.NEXT' | translate}}</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </mat-step>
+  
+    <!-- Payment Mode Form Group-->
+    <mat-step label="{{'CHECKOUT.PAYMENT_DETAILS.LABEL' | translate}}" [editable]='! orderPlaced'>
+      <form>
+        <div> <h2>{{'CHECKOUT.PAYMENT_DETAILS.TITLE' | translate}} </h2></div>
+        <div>
+          <img class="mr-2" width="60px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg" alt="Visa">
+        </div>
+        <br>
+        <div>
+          <img class="mr-2" width="60px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+            alt="American Express">
+        </div>
+        <br>
+        <div>
+          <img class="mr-2" width="60px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+            alt="Mastercard">
+        </div>
+        <br>
+        <div>
+          <img class="mr-2" width="60px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+            alt="PayPal acceptance mark">
+        </div>
+        <br>
+        <br>
+        <div> 
+          <button mat-raised-button matStepperPrevious>{{'CHECKOUT.BUTTONS.BACK' | translate}}</button>
+          <button mat-raised-button matStepperNext (click)='placeOrder()'>{{'CHECKOUT.BUTTONS.NEXT' | translate}}</button>
+        </div>
+      </form>
+    </mat-step>
+  
+    <mat-step>
+      <ng-template matStepLabel>{{'CHECKOUT.ORDER.STATUS' | translate}}</ng-template>
+      <h2><p>{{'CHECKOUT.ORDER.MESSAGE' | translate}}<em class="fas fa-smile fa-lg has-text-warning"></em></p></h2>
+      <div>
+        <button mat-raised-button (click)='continueEkarting()'>{{'CHECKOUT.BUTTONS.CONTINUE' | translate}}</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>

@@ -1,0 +1,1722 @@
+{
+  "users": [
+    {
+      "name": "nagpUser",
+      "mobNumber": "1234567891",
+      "age": 27,
+      "dob": "1992-09-17",
+      "email": "nagp@gmail.com",
+      "password": "123456",
+      "address": "nbahgc",
+      "zipcode": "",
+      "gender": "Female",
+      "aboutYou": "I am learning angular concepts...",
+      "uploadPhoto": "",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "The Cube Club Rubber Coated Hex Dumbbells for Men & Women for Home Workout (2.5kg, 5kg, 7.5kg)",
+      "image": "../../assets/products/db_p1.jpg",
+      "productDesc": "Made from the best materials which prevents from bending or breaking even after long term use.Hexagon shaped design which prevents it from rolling and also comes with chrome handle for a more comfortable grip.",
+      "mrp": 2999,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "black",
+        "hex",
+        "hex dumbbells",
+        "rubber",
+        "hexagon dumbbells",
+        "2.5Kg",
+        "5Kg",
+        "7.5Kg",
+        "strength"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 2,
+      "productName": "Neoprene Dumbbell Pair, 2 x 2Kg",
+      "image": "../../assets/products/db_p2.jpg",
+      "productDesc": "Set of 2 dumbbells for resistance training; each dumbbell weighs 2 Kg. Easy-grip neoprene coating for a secure hold.",
+      "mrp": 1199,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbells",
+        "heoprene",
+        "neoprene dumbbell",
+        "home",
+        "gym",
+        "rubber",
+        "hexagon dumbbells",
+        "hex dumbbells",
+        "2kg",
+        "strength"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": 3,
+      "productName": "Vinyl Dumbbells",
+      "image": "../../assets/products/db_p3.jpg",
+      "productDesc": "Set of 2 dumbbells - 5 Pounds each (2.27 KGS). Steel dumbbell with colorful vinyl exterior coating for a strong, non-slip grip",
+      "mrp": 1529,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "gym workouts",
+        "home workouts",
+        "home",
+        "gym",
+        "vinyl",
+        "vinyl dumbbells",
+        "steel",
+        "steel dumbbell",
+        "hexagon dumbbells",
+        "2.27Kg",
+        "2.5Kg",
+        "5Kg",
+        "strength"
+      ],
+      "quantity": 12
+    },
+    {
+      "id": 4,
+      "productName": "Klikfit Rubber Dumbbells, (Black)",
+      "image": "../../assets/products/db_p4.jpg",
+      "productDesc": "Included Components: Two 7.5kg rubber coated round dumbbells. Build strength, burn fat, and create a shapely body with Klikfit. The round heads are perfect for doing overhead triceps extensions with plenty of surface area to comfortably place your hands underneath and other dumbbell workouts",
+      "mrp": 2999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "klikfit",
+        "klikfit dumbbells",
+        "strength",
+        "round dumbells",
+        "round",
+        "home workouts",
+        "triceps",
+        "home",
+        "gym",
+        "black",
+        "rubber",
+        "7.5Kg",
+        "strength"
+      ],
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "productName": "Bodygrip 3KG HMEGYM Dumbbell, 3Kg Set of 2 (Blue)",
+      "image": "../../assets/products/db_p5.jpg",
+      "productDesc": "Bodygrip 3kg home gym set. A combination of all gym equipments for the perfect workout",
+      "mrp": 424,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "blue",
+        "bodygrip",
+        "home workouts",
+        "home",
+        "gym",
+        "rubber",
+        "round",
+        "round dumbbells",
+        "3Kg",
+        "strength"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "productName": "VCORE FITNESS Hex Dumbbell 5Kg Single Dumbbell, Ideal for Home Gym Dumbbells Exercise for Men & Women, Cast Iron Rubber Encased, Black",
+      "image": "../../assets/products/db_p6.jpg",
+      "productDesc": "PUMP CAST IRON DUMBBELL, STRONG HOLD NON-SLIP GRIP HANDLE, Hexagonal Dumbbell",
+      "mrp": 1149,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "dumbbells",
+        "dumbbells",
+        "VCORE",
+        "fitness",
+        "home workouts",
+        "home",
+        "gym",
+        "black",
+        "rubber",
+        "hexagon dumbbells",
+        "hex",
+        "5Kg",
+        "strength"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "productName": "FITSY 15 Kg Adjustable Dumbbell Set - Chrome Plated Iron Dumbbell Combo for Home Gym Workout (AR2057)",
+      "image": "../../assets/products/db_p7.jpg",
+      "productDesc": "ADJUSTABLE WEIGHTS, DURABLE CONSTRUCTION, ANTI SLIP RUBBERIZED GRIP, HUMANISTIC DESIGN",
+      "mrp": 4999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "black",
+        "iron",
+        "15Kg",
+        "adjustable dumbbell"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 8,
+      "productName": "Feroc Aluminium Badminton-Racket, Set of 2 with Feather Shuttles, 3 Pieces with Full-Cover",
+      "image": "../../assets/products/bd_p1.jpg",
+      "productDesc": "For Beginners and Intermediate Players.Contains: Pack of 2 badminton Rackets, 1 badminton cover + 1 Feather Shuttle box (Pack of 3) Aluminium frame Material Aluminium",
+      "mrp": 599,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "rackets",
+        "racket",
+        "shuttle",
+        "feather shuttle",
+        "home",
+        "outdoor",
+        "aluminium",
+        "feroc",
+        "badminton cover",
+        "sports",
+        "cocks"
+      ],
+      "quantity": 12
+    },
+    {
+      "id": 9,
+      "productName": "Yonex Mavis 10 Nylon 6 Shuttlecocks",
+      "image": "../../assets/products/bd_p2.jpg",
+      "productDesc": "Developed using the flight timing of feather shuttlecocks, Mavis Nylon shuttlecocks are precision designed and manufactured to provide accurate flight performance. When smashed, a Mavis shuttlecock recovers in only 0.02 seconds. This performance is just 0.005 seconds slower than a Yonex Feather shuttlecock and 0.08 seconds faster than the recovery of an ordinary shuttlecock.",
+      "mrp": 549,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "cocks",
+        "shuttle",
+        "feather shuttle",
+        "outdoor",
+        "home",
+        "yonex mavis",
+        "nylon shuttlecocks",
+        "sports"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 10,
+      "productName": "Li-Ning XP-70-IV Strung Badminton Racquet ( BLACK/GOLD , S2 , 90-95 grams , 18-20 lbs )",
+      "image": "../../assets/products/bd_p3.jpg",
+      "productDesc": "Grip Size : S2 (3.25 Inches)| Weight : W4 (90-95 grams), Color : BLACK/GOLD | Head Shape : Oval, String Level : 18-20 lbs, Material : Aluminum, Playing Level : Beginner, Strung Type : Strung Badminton",
+      "mrp": 999,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "racquet",
+        "black",
+        "gold",
+        "Beginner",
+        "outdoor",
+        "home",
+        "Li-Ning",
+        "aluminium",
+        "sports"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": 11,
+      "productName": "RAISCO R716F Nylon Badminton Net (Blue)",
+      "image": "../../assets/products/bd_p4.jpg",
+      "productDesc": "Special design for gaming, Four side tape with rop, Designed for school gyms, outdoor sports, coaching, gaming arcades",
+      "mrp": 999,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "blue",
+        "net",
+        "badminton net",
+        "home",
+        "RAISCO",
+        "nylon net",
+        "sports",
+        "outdoor"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": 12,
+      "productName": "Li-Ning Bolt Neo (6 in 1) Nylon Badminton Shuttlecocks (Yellow)",
+      "image": "../../assets/products/bd_p5.jpg",
+      "productDesc": "A technically sound nylon Shuttlecock engineered with a full Synthetic base cork, Made from quality Eva. Designed with the essence of percent durability, Speed: slow | Pack: 6 Nylon Shuttlecocks, Material used: nylon & synthetic cork base",
+      "mrp": 346,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "yellow",
+        "cocks",
+        "badminton shuttles",
+        "home",
+        "shuttle",
+        "Li-Ning",
+        "Bolt",
+        "Neo",
+        "nylon",
+        "sports",
+        "outdoor",
+        "synthetic"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 12,
+      "productName": "LI-NING-Badminton Full Cover",
+      "image": "../../assets/products/bd_p6.jpg",
+      "productDesc": "Cover Type - Full Cover",
+      "mrp": 279,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "black",
+        "cover",
+        "badminton cover",
+        "home",
+        "Li-Ning",
+        "sports",
+        "outdoor"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 13,
+      "productName": "Gmefvr - Badminton Net Single Strip for Training Used | Nylon | Red",
+      "image": "../../assets/products/bd_p6.jpg",
+      "productDesc": "Light weight and washable, Nylon, Full size",
+      "mrp": 144,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "black",
+        "net",
+        "badminton net",
+        "home",
+        "Gmefvr",
+        "sports",
+        "outdoor",
+        "nylon",
+        "red"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": 14,
+      "productName": "Prime Deals Professional Anti Fog Clear Anti-UV Swimming Pool Water Adjustable Diving Mask Goggles with a Case Cover, Multicolour, Small",
+      "image": "../../assets/products/sw_p1.jpg",
+      "productDesc": "FOOD-GRADE SILICONE SKIRT & LIQUID CRYSTAL STRIPS: Premium silicone for comfort, inoffensive and environmental., CLEAR & WIDE-FIELD LENS: The HNM SPORT swimming goggle lens is made of quality polycarbonate with anti-fog and anti UV coating, it is not just to offer you great clarity and max. visibility than ordinary eyeglasses but also anti-scratch, COMFORTABLE & LARGE SEAL: The cushion around the lens makes it a very comfortable wear and never let red raccoon circles around your eyes. And because of the great seal the goggles is not leaking.",
+      "mrp": 549,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Swimming"
+      },
+      "tags": [
+        "fitness",
+        "swimming",
+        "swim",
+        "multicolor",
+        "goggles",
+        "diving",
+        "diving goggles",
+        "home",
+        "anti fog",
+        "sports",
+        "indoor",
+        "silicon",
+        "lens",
+        "UV",
+        "non-leaking"
+      ],
+      "quantity": 17
+    },
+    {
+      "id": 15,
+      "productName": "PrimAlite Swimming Cap- Long & Short Hair with Ear Pocket, Waterproof Silicone Swim Caps Keeps Hair Clean, Non-Slip Ergonomic Design Comfortable & Durable- Adults Men Women Kids",
+      "image": "../../assets/products/sw_p2.jpg",
+      "productDesc": "ONE SIZE FITS ALL: Our swim cap is suitable for kids, adults, men, women, boys, girls etc, ideal for swimming, hot spring, beach sunbathing, home bathing, winter swimming etc, ERGONOMIC EAR POCKETS DESIGNED: Extra room allowed for the ears provide a comfortable fit, also prevent overpressure and protect ears from Chlorine, sand and bacteria in the water, IDEAL FOR ALL HAIR STYLES: Featuring great elasticity can be stretched easily and not deformation after stretching. Fit for hair styles of all length, such as long hair, shoulder length, thick hair or short hair.",
+      "mrp": 499,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Swimming"
+      },
+      "tags": [
+        "fitness",
+        "swimming",
+        "swim",
+        "bathing",
+        "cap",
+        "swimming cap",
+        "ear packet",
+        "home",
+        "waterproof",
+        "sports",
+        "indoor",
+        "silicon",
+        "sillicon caps",
+        "UV",
+        "non-slipping"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": 16,
+      "productName": "TYR Voyager Mask Snorkel Fin",
+      "image": "../../assets/products/sw_p3.jpg",
+      "productDesc": "TYR Voyager Mask Snorkel Fin Set Get to exploring with this trio of adventure necessities; the TYR Voyager Mask Snorkel Fin Set has an array of innovative features for your underwater excitement, The fins maintain a closed pocket design for better foot support, upward turned edges to eliminate discomfort and strain and side foot vents to enable drainage. Constructed with Hydroflex technology, each fin maximizes fluid movement .",
+      "mrp": 4599,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Swimming"
+      },
+      "tags": [
+        "fitness",
+        "swimming",
+        "swim",
+        "fin",
+        "swimming fins",
+        "mask snorkel",
+        "pool",
+        "waterproof",
+        "sports",
+        "outdoor",
+        "TYR",
+        "Voyager"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 17,
+      "productName": "JERN Soft Silicon Swimming Fins Flippers Webbed Glove (1 Pair)",
+      "image": "../../assets/products/sw_p4.jpg",
+      "productDesc": "Fins for finger, Suitable for average hand size, Soft Silicone Durable material, Improve hand stroke power, Tight fitting to avoid getting lost while swimming, Palm width:15 cm and Thumb width:1.6 cm",
+      "mrp": 289,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Swimming"
+      },
+      "tags": [
+        "fitness",
+        "swimming",
+        "swim",
+        "fin",
+        "swimming fins",
+        "fingers fins",
+        "mask snorkel",
+        "flippers",
+        "webbed glove",
+        "glove",
+        "pool",
+        "waterproof",
+        "sports",
+        "outdoor",
+        "JERN",
+        "sillicon"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": 18,
+      "productName": "Speedo Unisex-Adult Glide Mask & Snorkel Set",
+      "image": "../../assets/products/sw_p5.jpg",
+      "productDesc": "Unisex-Adult Scuba Sport, Set includes mask and snorkel, Comes with reusable mesh bag, The snorkel mask features a tempered glass lens that is angled for excellent vision and maximum safety",
+      "mrp": 2499,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Swimming"
+      },
+      "tags": [
+        "fitness",
+        "swimming",
+        "swim",
+        "mask",
+        "swimming mask",
+        "snorkel",
+        "glide mask",
+        "unisex",
+        "scuba",
+        "pool",
+        "sports",
+        "outdoor",
+        "Speedo",
+        "mesh bag"
+      ],
+      "quantity": 11
+    },
+    {
+      "id": 19,
+      "productName": "New Sport Item Table Tennis Red Table Tennis Racquet,Table Tennis Racket Red, Black Table Tennis Racquet Table Tennis Set for Kids (2 pcs of Racket, 3 pcs of Ball,177 Gram)",
+      "image": "../../assets/products/tt_p1.jpg",
+      "productDesc": "Speed: 50, Spin: 70, Control: 97, Meant for recreational use only, good for beginners, Ideal for senior and junior TT players",
+      "mrp": 299,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Table Tennis"
+      },
+      "tags": [
+        "fitness",
+        "TT",
+        "table tennis",
+        "tennis",
+        "red",
+        "table",
+        "table tennis racquet",
+        "black",
+        "kids",
+        "tennis balls",
+        "sports",
+        "indoor",
+        "recreational",
+        "beginners",
+        "wood",
+        "CkiTech"
+      ],
+      "quantity": 4
+    },
+    {
+      "id": 20,
+      "productName": "GKI Superb 3 Star ABS Plastic 40 Table Tennis Ball (6 Pc), White",
+      "image": "../../assets/products/tt_p2.jpg",
+      "productDesc": "In-box Contents: 6 x TT ball, Abs 40+ with seam, Ttfi approved",
+      "mrp": 314,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Table Tennis"
+      },
+      "tags": [
+        "fitness",
+        "TT",
+        "table tennis",
+        "tennis",
+        "white",
+        "table",
+        "table tennis ball",
+        "ball",
+        "tennis balls",
+        "sports",
+        "indoor",
+        "plastic",
+        "GKI"
+      ],
+      "quantity": 8
+    },
+    {
+      "id": 21,
+      "productName": "Toyshine Portable Ping Pong Net – Retractable Table Tennis Net for Any Table ,Color May vary (SSTP)",
+      "image": "../../assets/products/tt_p3.jpg",
+      "productDesc": "PREMIUM MATERIAL: This ping pong net is made of high-quality polyester cotton. It is suitable for any table, ERGONOMIC DESIGN: The frame shaft design applies to human hand design, and stretching is more comfortable and labor-saving. The big jaw has a strong bite force and is firm and non-slip. It can be stably installed on a table tennis table with a thickness of 5 cm. Can be pulled together freely and is easy to carry, WIDELY USED: Fits up to 2-inch thick ping pong tables. Plastic clips can be attached to any surface, ping pong play on the desk, the kitchen or the dining table; This universal attachment turns any tabletop into a 5-star game.",
+      "mrp": 699,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Table Tennis"
+      },
+      "tags": [
+        "fitness",
+        "TT",
+        "table tennis",
+        "tennis",
+        "white",
+        "table",
+        "table tennis net",
+        "net",
+        "tennis net",
+        "sports",
+        "indoor",
+        "ping pong net",
+        "portable net",
+        "toyshine"
+      ],
+      "quantity": 19
+    },
+    {
+      "id": 22,
+      "productName": "GYMNCO Practice Full Size Table Tennis Table with Wheel & Laminated Top, Table Cover, 2 Tt Racket & Balls",
+      "image": "../../assets/products/tt_p4.jpg",
+      "productDesc": "One pair of table tennis racquet, balls, table tennis table cover, table tennis table net, Approved by : TTFI Approved, table size (H X L X B): 30 x 108 x60 inch, board colour : blue, Board thickness/ type: 16 mm, pre-laminated particle board, base frame material: steel, Base frame colour: Black & Grey, Top Size: 16 mm, base frame size: 40 mm x 25 mm, leg size: 25 mm square, wheel size: 50 mm, installation: Sticky User Manual and self-installation Foldable: Yes",
+      "mrp": 12499,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Table Tennis"
+      },
+      "tags": [
+        "fitness",
+        "TT",
+        "table tennis",
+        "tennis",
+        "blue",
+        "table",
+        "table tennis",
+        "cover",
+        "racquet",
+        "balls",
+        "TT balls",
+        "sports",
+        "indoor",
+        "net",
+        "table cover",
+        "steel",
+        "black",
+        "grey"
+      ],
+      "quantity": 9
+    },
+    {
+      "id": 23,
+      "productName": "BAS Vampire Service Hockey Stick with Leather Grip Junior Size",
+      "image": "../../assets/products/hk_p1.jpg",
+      "productDesc": "Leather Grip - Junior Size - Righty, Edge Hockey Stick for Practice Level, Made up with nice Reinforcement Glass Fiber, Size :- 33 Inch , Suitable for Juniors Boy & Girls, Weight Vary 450 - 475Gms Depending their availability",
+      "mrp": 260,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey stick",
+        "leather grip",
+        "practice",
+        "glass fiber",
+        "sports",
+        "outdoor",
+        "BAS Vampire"
+      ],
+      "quantity": 16
+    },
+    {
+      "id": 23,
+      "productName": "Liffo® Hockey Stick for Kids, Junior Set of 3 Hockey Sticks 3 Ball Kids (3-6Year) Multicolor",
+      "image": "../../assets/products/hk_p2.jpg",
+      "productDesc": "Good For Indoor And Outdoor Game.For exercise for Kids, The best choice for children's, Kids birthday gifts or Christmas gifts.Suitable indoors or outdoors, perfect for children to enjoy the perfect holiday, A good toy for your kids to use it in multi-player game., Made of Non-toxic Virgin plastic, strong robust and fine-finish, Content : 3 hockey stick , 3 ball",
+      "mrp": 399,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey stick",
+        "practice",
+        "balls",
+        "sports",
+        "outdoor",
+        "Liffo",
+        "kids",
+        "multicolor",
+        "indoor",
+        "plastic"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 24,
+      "productName": "Victall Field Hockey Ball/Cricket Training/Golf Training Practice Ball",
+      "image": "../../assets/products/hk_p3.jpg",
+      "productDesc": "Field Hockey Ball/Cricket Training/Golf Training Practice Ball, It is highly durable, It will be perfect for all sports lovers out there",
+      "mrp": 369,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey ball",
+        "practice",
+        "balls",
+        "training",
+        "cricket",
+        "golf",
+        "sports",
+        "outdoor",
+        "Victall",
+        "field"
+      ],
+      "quantity": 8
+    },
+    {
+      "id": 25,
+      "productName": "TEMPEST Hockey Hollow Ball Yellow",
+      "image": "../../assets/products/hk_p4.jpg",
+      "productDesc": "Package Includes TEMPEST Hockey Hollow Balls - 1 Ball, Perfectly Suitable for Indian Conditions, Export Quality Hollow Balls, Color Flouroscent Yellow",
+      "mrp": 200,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey ball",
+        "practice",
+        "balls",
+        "hollow ball",
+        "sports",
+        "outdoor",
+        "TEMPEST",
+        "yellow"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 26,
+      "productName": "TEMPEST Hockey Hold All Jumbo Bag",
+      "image": "../../assets/products/hk_p5.jpg",
+      "productDesc": "TEMPEST Hockey hold all bag with jumbo capacity of holding six sticks, Polyester Fabric is used for making this Bag , Comfortments:Comfortments designed for specific task in mind.Padded Comfortments for valuables.Ventilated, Extra Toughlips: TEMPEST uses the best durable zips for all of our luggage products., Color:Blue , Black",
+      "mrp": 920,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey bag",
+        "practice",
+        "bag",
+        "polyster",
+        "sports",
+        "outdoor",
+        "TEMPEST",
+        "black",
+        "blue"
+      ],
+      "quantity": 15
+    },
+    {
+      "id": 27,
+      "productName": "Cosco Fitness Power Glove (Color may vary)",
+      "image": "../../assets/products/hk_p6.jpg",
+      "productDesc": "Amara silicone print, multi-color, Cosco product, Elastic cuff, Hook & Loop, Velcro strap",
+      "mrp": 600,
+      "bestSeller": false,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey gloves",
+        "power",
+        "gloves",
+        "silicone",
+        "sports",
+        "outdoor",
+        "Cosco"
+      ],
+      "quantity": 9
+    },
+    {
+      "id": 28,
+      "productName": "Hindon Hockey Goalkeeper Gloves Orange",
+      "image": "../../assets/products/hk_p7.jpg",
+      "productDesc": "Hockey Goal Keeper Gloves for Professionals, Best Matterial, Moulded Light Weight,",
+      "mrp": 1499,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Hockey"
+      },
+      "tags": [
+        "fitness",
+        "hockey",
+        "hockey gloves",
+        "goalkeeper gloves",
+        "gloves",
+        "professional",
+        "sports",
+        "outdoor",
+        "Hindon"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 29,
+      "productName": "Lifelong FitPro LLTM09 (2.5 HP Peak) Motorized Treadmill for Home with 12 preset Workouts, Max Speed 10km/hr. (Free Installation Assistance)",
+      "image": "../../assets/products/td_p1.jpg",
+      "productDesc": "Powerful but quiet 2.5HP motor delivers speed from 10Km/h to meet different fitness demands. Comfort cell cushioning technology with 8 rubber pads under deck for shock absorption gives your Joint the support they deserve, making for a more comfortable workout and faster recovery, Featuring anti-skid rubber surface with a high-density belt and 8 shock-absorbers for maximum comfort & safety. The large 6-layer 1100*400 MM running belt and gives lots of space to comfortably walk, run or sprint",
+      "mrp": 16999,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Treadmills"
+      },
+      "tags": [
+        "fitness",
+        "treadmill",
+        "indoor",
+        "exercise",
+        "cardio",
+        "gym",
+        "FirPro",
+        "home",
+        "workouts",
+        "running",
+        "walking",
+        "inclined"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 30,
+      "productName": "Sparnod Fitness STH-3000 Series (4 HP Peak) 2 in 1 Foldable Treadmill for Home Cum Under Desk Walking Pad - Slim Enough to be stored Under Bed",
+      "image": "../../assets/products/td_p2.jpg",
+      "productDesc": "Unlike the normal treadmill, STH-3000 is a 2 in 1 treadmill which has 2 exercise modes that means it can be used as running treadmill and under desk walking treadmill. when treadmill riser is folded, it becomes a under desk/walking pad treadmill.The speed of the running belt is 1-4km/h when the riser is folded you can walk while you work.and when the riser is up it becomes normal treadmill which can be used for walking and running.",
+      "mrp": 23999,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Treadmills"
+      },
+      "tags": [
+        "fitness",
+        "treadmill",
+        "indoor",
+        "exercise",
+        "cardio",
+        "gym",
+        "Sparnod",
+        "home",
+        "workouts",
+        "running",
+        "walking",
+        "inclined"
+      ],
+      "quantity": 0
+    },
+    {
+      "id": 31,
+      "productName": "PowerMax Fitness MFT-410 Manual Treadmill with Free Installation Assistance, Home Use & Multifunction",
+      "image": "../../assets/products/td_p3.jpg",
+      "productDesc": "Five window LCD Display - Speed, Time, Distance, Calories and Heart rate, 3-Level Manual Incline for intense workout, Max User Weight: 120KG",
+      "mrp": 9999,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Treadmills"
+      },
+      "tags": [
+        "fitness",
+        "treadmill",
+        "indoor",
+        "exercise",
+        "cardio",
+        "gym",
+        "PowerMax",
+        "home",
+        "workouts",
+        "running",
+        "walking",
+        "inclined"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 32,
+      "productName": "Cockatoo CTM-04 Series Home Use 1.5 HP - 2 HP Peak Motorised Multi-Function Treadmill for Home with Massager, Max Speed 14Km/Hr, Max User Weight 90 Kg (Free Installation Assistance)",
+      "image": "../../assets/products/td_p4.jpg",
+      "productDesc": "Belt size: Running Surface(LxB):1100 x 390 mm ,Motor type: DC-Motorised  | Motor horsepower data : 1.5 HP Continuous ( 2 HP Peak), Speed: 0.8-14 km/hr | Max Weight support: 90 Kilograms, Inclination type: No Incline ",
+      "mrp": 21990,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Treadmills"
+      },
+      "tags": [
+        "fitness",
+        "treadmill",
+        "indoor",
+        "exercise",
+        "cardio",
+        "gym",
+        "PowerMax",
+        "home",
+        "workouts",
+        "running",
+        "walking"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 33,
+      "productName": "Reach Air Bike Exercise Cycle With Moving Handles & Adjustable Cushioned Seat (Multi-color)",
+      "image": "../../assets/products/ab_p1.jpg",
+      "productDesc": "The Reach Air Exercise Bike is a stationary Cycle that also offers a full-body workout supporting 100 KG. This exercise bike will strengthen your lower body while its dual-action arms feature will increase your upper body endurance as you pedal. Experience different workouts by easily changing the setting from moving handles to stationary handles.",
+      "mrp": 6999,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Exercise Bikes"
+      },
+      "tags": [
+        "fitness",
+        "bikes",
+        "cycle",
+        "indoor",
+        "air bikes",
+        "moving handles",
+        "exercise",
+        "cardio",
+        "gym",
+        "Reach",
+        "home",
+        "workouts",
+        "cycling"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": 34,
+      "productName": "Sparnod Fitness SAB-05 Air Bike Exercise Cycle for Home Gym - Dual Action for Full Body Workout (Setting for Moving/Stationary Handles) - Adjustable Resistance, Height Adjustable seat with Back Rest",
+      "image": "../../assets/products/ab_p2.jpg",
+      "productDesc": "Dual action handle bars move back & forth to target upper body muscles (similar to elliptical cross trainer). Pedalling targets lower body muscles. The handles can also be set to stationary mode",
+      "mrp": 8325,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Exercise Bikes"
+      },
+      "tags": [
+        "fitness",
+        "bikes",
+        "cycle",
+        "indoor",
+        "air bikes",
+        "moving handles",
+        "exercise",
+        "cardio",
+        "gym",
+        "Sparnod",
+        "home",
+        "workouts",
+        "cycling"
+      ],
+      "quantity": 7
+    },
+    {
+      "id": 35,
+      "productName": "PowerMax Fitness BU-200 Exercise Upright Bike with Anti-Skid Pedals, Adjustable Foot Strap and Vertical Seat Adjustment for Home Gym",
+      "image": "../../assets/products/ab_p3.jpg",
+      "productDesc": "LCD Display- Scan, Time, Speed, Distance, Odometer, Calories And Pulse. Powered by: Magnetic, Micro adjustment tension control, Proper seat adjustment :The Upright bike has the perfect comfort cushion seat and vertical adjustment, Maximum user weight: 100kg , Assembled dimension :730 x 430 x 1080mm",
+      "mrp": 5599,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Exercise Bikes"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bikes",
+        "cycle",
+        "indoor",
+        "air bikes",
+        "moving handles",
+        "cardio",
+        "gym",
+        "PowerMax",
+        "home",
+        "workouts",
+        "cycling"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 36,
+      "productName": "Cockatoo AB06 Stainless-Steel Indian Exercise Bike for Home Gym with Moving Handle and Adjustable Cushioned seat, Others (Black) ISO 9001: 2015 Certified(DIY, Do IT Yourself Installation)",
+      "image": "../../assets/products/ab_p4.jpg",
+      "productDesc": "Technical feature: you can glance at the 6 LCD monitor, which tracks calories burned, time of exercise, speed and distance covered, Flywheel size: 3.0kgs, 1 PC crank & one way bearing || fan based air resistance, Maximum user weight & height: 100kgs / 150-195cm",
+      "mrp": 7221,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Exercise Bikes"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bikes",
+        "cycle",
+        "indoor",
+        "air bikes",
+        "moving handles",
+        "cardio",
+        "gym",
+        "Cockatoo",
+        "home",
+        "workouts",
+        "cycling",
+        "stainless-steel",
+        "stainless",
+        "steel",
+        "black"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": 37,
+      "productName": "Cardio Max JSB HF73 Magnetic Exercise Cycle for Home Gym (With Installation Assistance)",
+      "image": "../../assets/products/ab_p5.jpg",
+      "productDesc": "Magnetic Exercise Cycle for Home Gym ; Fitness Bike Cycle With 4 Kg Flyweight For A Smooth Cycling Experience",
+      "mrp": 10999,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Exercise Bikes"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bikes",
+        "cycle",
+        "indoor",
+        "air bikes",
+        "moving handles",
+        "cardio",
+        "gym",
+        "JSB",
+        "home",
+        "workouts",
+        "cycling",
+        "steel",
+        "silver",
+        "magnetic"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 38,
+      "productName": "Cockatoo CE03ADVANCE Smart Series Elliptical Cross Trainer",
+      "image": "../../assets/products/et_p1.jpg",
+      "productDesc": "Flywheel Size:Φ220MM / 6KGS;Maximum User Weight & Height accommodation: 120Kgs /160-195cm, Resistance Level:8 levels magnetic resistance help you to Intensify your exercise.With a simple twist, you can increase or decrease the Level of magnetic resistance, Foot Pedals:Textured & fixed-incline pedals are designed to provide maximum grip and stability.Experience a pedal incline (up to 12.82°) that automatically adjusts to the natural movement of your feet.",
+      "mrp": 18990,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Elliptical Trainers"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "elliptical",
+        "cross walk",
+        "cycle",
+        "indoor",
+        "cross",
+        "moving handles",
+        "cardio",
+        "gym",
+        "home",
+        "workouts",
+        "cycling",
+        "Cockatoo"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": 39,
+      "productName": "Welcare Elliptical Cross Trainer WC6044 with Adjustable seat, Hand Pulse Sensor, LCD Monitor, Adjustable Resistance for Home Use (DIY Installation with Video Call Assistance)",
+      "image": "../../assets/products/et_p2.jpg",
+      "productDesc": "5 kgs fly wheel with two-way rotation; Fly wheel, increases the momentum of your speed reducing your impact on your knees., Large LCD window monitor to track speed, time, distance,scan, heart rate and calories burnt, Hand pulse pad conveniently placed on hand rails to allow for easy measurement of heart rate. Stride Length :14",
+      "mrp": 17490,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Elliptical Trainers"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "elliptical",
+        "cross walk",
+        "cycle",
+        "indoor",
+        "cross",
+        "moving handles",
+        "cardio",
+        "gym",
+        "home",
+        "workouts",
+        "cycling",
+        "Welcare"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 40,
+      "productName": "PowerMax Fitness EH-200 Steel EH-200 Orbitrek Exercise Cycle and Elliptical Cross Trainer with Hand Pulse, Comfortable Seat and Smart LCD Display (Black)",
+      "image": "../../assets/products/et_p3.jpg",
+      "productDesc": "5 kgs fly wheel with two-way rotation; Fly wheel, increases the momentum of your speed reducing your impact on your knees., Large LCD window monitor to track speed, time, distance,scan, heart rate and calories burnt, Hand pulse pad conveniently placed on hand rails to allow for easy measurement of heart rate. Stride Length :14",
+      "mrp": 17490,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Elliptical Trainers"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "elliptical",
+        "cross walk",
+        "cycle",
+        "indoor",
+        "cross",
+        "moving handles",
+        "cardio",
+        "gym",
+        "home",
+        "workouts",
+        "cycling",
+        "PowerMax",
+        "black"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 41,
+      "productName": "Strauss Aerobic Stepper",
+      "image": "../../assets/products/st_p1.jpg",
+      "productDesc": "Step Platform surface is non-stick, non-slip, and shock absorbing. Can ensure you exercise easily and safely, Heavy-duty polypropylene material gives the stepper a high 440 lb weight capacity, This exercise stepper will help you work on your coordination as you improve your cardiovascular fitness. Ideal for cardio workout and/or to strengthen your lower body. The stepper can also help you to strengthen your chest and back by pushups.",
+      "mrp": 1502,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Step Machines"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "stepper",
+        "aerobics",
+        "polypropylene",
+        "indoor",
+        "cardiovascular",
+        "strength",
+        "gym",
+        "home",
+        "workouts",
+        "Strauss",
+        "black"
+      ],
+      "quantity": 20
+    },
+    {
+      "id": 42,
+      "productName": "Jukkre Mini Stepper with LCD Display, Climber Step Fitness Exercise Machine with Resistance Band - Integrated Design, 3 Levels Adjustable Speed, for Home, Gym",
+      "image": "../../assets/products/st_p2.jpg",
+      "productDesc": "Step Platform surface is non-stick, non-slip, and shock absorbing. Can ensure you exercise easily and safely, Heavy-duty polypropylene material gives the stepper a high 440 lb weight capacity, This exercise stepper will help you work on your coordination as you improve your cardiovascular fitness. Ideal for cardio workout and/or to strengthen your lower body. The stepper can also help you to strengthen your chest and back by pushups.",
+      "mrp": 2999,
+      "bestSeller": true,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Step Machines"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "stepper",
+        "aerobics",
+        "indoor",
+        "climber step",
+        "strength",
+        "gym",
+        "home",
+        "workouts",
+        "Jukkre",
+        "black",
+        "resistance band",
+        "hydraulic"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 43,
+      "productName": "Scizor Multifunctional Twist Stepper Treadmill, Electronic Display Home Training Workout Chair Seat Fitness Stool Ab Training Push Up Fitness Treadmill Equipment for Gym Home, Black",
+      "image": "../../assets/products/st_p3.jpg",
+      "productDesc": "A great partner for indoor-exercises! Not only a perfect fitness stepper to shape your arms, hip, waist, legs, but also a stool when not in use, you can put it anyplace in your house and exercise at any time conveniently.Scizor stair stepper clearly records your effort on exercise by movement time, calories burned, the speed of tightening and tightening, and the average number of steps per minute.",
+      "mrp": 4999,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Step Machines"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "stepper",
+        "twist stepper",
+        "treadmill",
+        "indoor",
+        "strength",
+        "gym",
+        "home",
+        "workouts",
+        "Scizor",
+        "black"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 44,
+      "productName": "Whixori Upright Exercise Bikes Spin bikection Cardio Training Exercise Equ,Compact Fitness Stair Stepper",
+      "image": "../../assets/products/st_p4.jpg",
+      "productDesc": "A great partner for indoor-exercises! Not only a perfect fitness stepper to shape your arms, hip, waist, legs, but also a stool when not in use, you can put it anyplace in your house and exercise at any time conveniently.Scizor stair stepper clearly records your effort on exercise by movement time, calories burned, the speed of tightening and tightening, and the average number of steps per minute.",
+      "mrp": 4990,
+      "bestSeller": false,
+      "category": {
+        "id": 2,
+        "categoryName": "Cardio Equipments",
+        "subCategory": "Step Machines"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "stepper",
+        "cardio",
+        "indoor",
+        "strength",
+        "bike",
+        "spin bike",
+        "gym",
+        "home",
+        "workouts",
+        "Whixori",
+        "hydraulic"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": 45,
+      "productName": "Kore Heavy Duty Multipurpose Home Gym Bench for Multiple Workouts and Strength Training",
+      "image": "../../assets/products/bn_p1.jpg",
+      "productDesc": "Heavy duty frame, Comfortable in use, For multiple purpose, Color: Black",
+      "mrp": 2899,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Benches"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "benches",
+        "strength",
+        "indoor",
+        "bench",
+        "gym",
+        "home",
+        "workouts",
+        "Kore",
+        "black"
+      ],
+      "quantity": 13
+    },
+    {
+      "id": 46,
+      "productName": "ALLYSON FITNESS Foldable Flat Bench- Up to 500 kg Capacity Tested for Strength Training Multipurpose Fitness Exercise Gym Workout, Heavy Duty Weight Flat Bench for Home & Gym(Yellow)",
+      "image": "../../assets/products/bn_p2.jpg",
+      "productDesc": "Heavy duty frame, Comfortable in use, For multiple purpose, Color: Black",
+      "mrp": 2999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Benches"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "benches",
+        "strength",
+        "flat",
+        "indoor",
+        "bench",
+        "gym",
+        "home",
+        "workouts",
+        "ALLYSON",
+        "yellow"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 46,
+      "productName": "IBS Heavy Duty Flat Weight Bench- Up to 320 kg Capacity Utility Exercise Bench for Weight Strength Training, Sit Up Abs Fitness Bench for Full Body Workout of Home Gym Color-Silver, Material-Iron",
+      "image": "../../assets/products/bn_p3.jpg",
+      "productDesc": "320KG weight capacity home gym bench has solid mechanics design. The wide base enlarges the bearing capacity area and the base cap is anti-skid to prevent any movement during the exercise. It is incredible stability to promise true safety and avoid any wobble, The flat bench works well both in home gym and commercial use. The main frame is made of a thickened layer pad and the heavy-duty steel. The leather board is filled with high-density foam which offers comfortable exercise and the steel tube makes this weight bench sturdy support for the toughest workouts",
+      "mrp": 2997,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Benches"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "benches",
+        "strength",
+        "flat",
+        "indoor",
+        "bench",
+        "gym",
+        "home",
+        "workouts",
+        "IBS",
+        "silver",
+        "iron",
+        "steel"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": 47,
+      "productName": "Kobo EB-1012 Steel Adjustable Dumbbell Bench with Preacher Curl for Home Gym Imported (Black/Red)",
+      "image": "../../assets/products/bn_p4.jpg",
+      "productDesc": "Many exercises like: dumbbell row, resistance band pull, sit ups, push ups, leg extension, upper oblique dumbbell bench press, dumbbell press bench, dumbbell curl etc",
+      "mrp": 8999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Benches"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "benches",
+        "strength",
+        "flat",
+        "indoor",
+        "bench",
+        "gym",
+        "home",
+        "workouts",
+        "Kobo",
+        "black",
+        "red",
+        "steel"
+      ],
+      "quantity": 5
+    },
+    {
+      "id": 48,
+      "productName": "IBS Adjustable Incline, Decline & Flat Bench for Home & Professional Gym Utility Exercise Bench for Weight Strength Training, Sit Up Abs Black",
+      "image": "../../assets/products/bn_p5.jpg",
+      "productDesc": "Many exercises like: dumbbell row, resistance band pull, sit ups, push ups, leg extension, upper oblique dumbbell bench press, dumbbell press bench, dumbbell curl etc",
+      "mrp": 4999,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Benches"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "benches",
+        "strength",
+        "flat",
+        "incline",
+        "decline",
+        "indoor",
+        "bench",
+        "gym",
+        "home",
+        "workouts",
+        "IBS",
+        "black"
+      ],
+      "quantity": 12
+    },
+    {
+      "id": 49,
+      "productName": "Kore K-WM-CHINUP-BAR-SR-ABS Pull-Up Bar and Ab Strap Combo",
+      "image": "../../assets/products/br_p1.jpg",
+      "productDesc": "Ab Straps, Solid one piece Pull up bar, parallel grips, mounting hardware(8 x M8 Screws, 2 x 3 screws with bolts) and installation instructions, Dimensions: Fixed Pillar Length 20 inches, Top Rod length 38 inches; Padded foam grips for comfort against your hands and heavy-duty steel construction features with black powder coating to prevent rust and corrosion.",
+      "mrp": 1268,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Bars"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bars",
+        "strength",
+        "pull-ups",
+        "indoor",
+        "bar",
+        "gym",
+        "home",
+        "workouts",
+        "Kore",
+        "black"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 50,
+      "productName": "Bulfyss Pull up Bar, Chin up Bar Door Way Door Mounts for Home, Gym, Fitness, Exercise for Men and Women",
+      "image": "../../assets/products/br_p2.jpg",
+      "productDesc": "Build Upperbody Strength - Tone and Strengthen Your Back, Arms, Shoulders and Abs Muscles for the Perfect Upperbody Workout, Safe and Secure Door Mounts - Heavy-Duty Chrome Steel Pull-Up Bar and Door Mounts Provide Great Support and Safety - Holds up to 220 Lbs (100kg) When Properly Mounted Using Supplied Screw-In Heavy-Duty Door Brackets. Note: Always Use the Provided Screw-In Door Mounts.",
+      "mrp": 999,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Bars"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bars",
+        "strength",
+        "pull-up bar",
+        "indoor",
+        "bar",
+        "gym",
+        "home",
+        "workouts",
+        "Bulfyss"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 51,
+      "productName": "Strauss Adjustable Chin Up Door Bar",
+      "image": "../../assets/products/br_p3.jpg",
+      "productDesc": "This is the ultimate training tool to develop your shoulders, back, and arms with STRONG HEAVY DUTY STEEL MATERIAL AND COMFY FOAM GRIPS. Simple assembly and portable. This tool helps to increase your upper body strength and the stamina in your arms and shoulders by adding a few sessions with this Product to your routine.",
+      "mrp": 699,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Bars"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bars",
+        "strength",
+        "pull-up bar",
+        "indoor",
+        "bar",
+        "gym",
+        "home",
+        "workouts",
+        "Strauss"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 52,
+      "productName": "MTN FITNESS 5 FEET Straight Rod & 3 FEET Curl Rod with Locks Combo",
+      "image": "../../assets/products/br_p4.jpg",
+      "productDesc": "This is the ultimate training tool to develop your shoulders, back, and arms with STRONG HEAVY DUTY STEEL MATERIAL AND COMFY FOAM GRIPS. Simple assembly and portable. This tool helps to increase your upper body strength and the stamina in your arms and shoulders by adding a few sessions with this Product to your routine.",
+      "mrp": 920,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Bars"
+      },
+      "tags": [
+        "fitness",
+        "exercise",
+        "bars",
+        "strength",
+        "pull-up bar",
+        "indoor",
+        "bar",
+        "gym",
+        "home",
+        "workouts",
+        "MTN",
+        "curl rod",
+        "rods",
+        "rod",
+        "straight rod"
+      ],
+      "quantity": 19
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Sports",
+      "subCategory": [
+        "Badminton",
+        "Swimming",
+        "Table Tennis",
+        "Hockey"
+      ]
+    },
+    {
+      "id": 2,
+      "categoryName": "Cardio Equipments",
+      "subCategory": [
+        "Treadmills",
+        "Exercise Bikes",
+        "Elliptical Trainers",
+        "Step Machines"
+      ]
+    },
+    {
+      "id": 3,
+      "categoryName": "Strength Gears",
+      "subCategory": [
+        "Dumbbells",
+        "Benches",
+        "Bars"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "productName": "Neoprene Dumbbell Pair, 2 x 2Kg",
+        "image": "../../assets/products/db_p2.jpg",
+        "productDesc": "Set of 2 dumbbells for resistance training; each dumbbell weighs 2 Kg. Easy-grip neoprene coating for a secure hold.",
+        "mrp": 1199,
+        "bestSeller": true,
+        "category": {
+          "id": 3,
+          "categoryName": "Strength Gears",
+          "subCategory": "Dumbbells"
+        },
+        "tags": [
+          "fitness",
+          "dumbbells",
+          "dumbbells",
+          "heoprene",
+          "neoprene dumbbell",
+          "home",
+          "gym",
+          "rubber",
+          "hexagon dumbbells",
+          "hex dumbbells",
+          "2kg",
+          "strength"
+        ],
+        "quantity": 3
+      },
+      "user": {
+        "name": "nagpUser",
+        "mobNumber": "1234567891",
+        "age": 27,
+        "dob": "1992-09-17",
+        "email": "nagp@gmail.com",
+        "password": "123456",
+        "address": "nbahgc",
+        "zipcode": "",
+        "gender": "Female",
+        "aboutYou": "I am learning angular concepts...",
+        "uploadPhoto": "",
+        "id": 1
+      },
+      "quantity": "1",
+      "orderPlacedOn": "2021-05-16T08:00:31.519Z",
+      "id": 1
+    }
+  ],
+  "states": [
+    "AP|Andhra Pradesh",
+    "AR|Arunachal Pradesh",
+    "AS|Assam",
+    "BR|Bihar",
+    "CT|Chhattisgarh",
+    "GA|Goa",
+    "GJ|Gujarat",
+    "HR|Haryana",
+    "HP|Himachal Pradesh",
+    "JK|Jammu and Kashmir",
+    "JH|Jharkhand",
+    "KA|Karnataka",
+    "KL|Kerala",
+    "MP|Madhya Pradesh",
+    "MH|Maharashtra",
+    "MN|Manipur",
+    "ML|Meghalaya",
+    "MZ|Mizoram",
+    "NL|Nagaland",
+    "OR|Odisha",
+    "PB|Punjab",
+    "RJ|Rajasthan",
+    "SK|Sikkim",
+    "TN|Tamil Nadu",
+    "TG|Telangana",
+    "TR|Tripura",
+    "UT|Uttarakhand",
+    "UP|Uttar Pradesh",
+    "WB|West Bengal",
+    "AN|Andaman and Nicobar Islands",
+    "CH|Chandigarh",
+    "DN|Dadra and Nagar Haveli",
+    "DD|Daman and Diu",
+    "DL|Delhi",
+    "LD|Lakshadweep",
+    "PY|Puducherry"
+  ]
+}

@@ -1,0 +1,69 @@
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" routerLink="/">
+        <img src="../../../../assets/logo.png" class="image-size" alt="Logo of KartZee" (click)='setTitle("kartZee")'>
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+  
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable" *ngFor="let category of categories">
+          <a class="navbar-link is-arrowless" (click)='shopByCategory(category.categoryName)'>
+            {{category.categoryName}}
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" *ngFor="let subCategory of category.subCategory" (click)='shopBySubCategory(category.categoryName , subCategory )'>
+              {{subCategory}}
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item container__right">
+          <p class="control has-icons-left">
+            <input class="input input-size-bigger form-control" #search type="text" [(ngModel)]="searchedKeyword"
+              (keyup.enter)="onSearchTermChange()" placeholder="{{'HOME.SEARCH' | translate}}" (click)='setTitle("e-Kart Searching")'>
+            <span class="icon is-left">
+              <em class="fas fa-search" aria-hidden="true"></em>
+            </span>
+          </p>
+          <div></div>
+          <div></div>
+          <div class="make-flex">
+              <em><img src="../../../../assets/languages.png" alt="Language support"></em>
+            <div class="select is-small">
+              <h4>{{'HOME.LANGUAGE' | translate}}</h4>
+            
+              <select #langSelect (change)="translate.use(langSelect.value)">
+                <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+              </select>
+            </div>
+          </div>
+          <div class="profile navbar-item has-dropdown is-hoverable make-flex ">
+            <em class="fas fa-user-circle has-text-info fa-2x"></em>
+            <p>{{'HOME.PROFILE.TITLE' | translate}}</p>
+            <div class="navbar-dropdown">
+              <a id='auth' class="navbar-item" *ngIf='! isLoggedIn()' routerLink="/auth" routerLinkActive='active'  (click)='setTitle("e-Kart Authentication")'>
+                {{'HOME.PROFILE.ITEM_1' | translate}}
+              </a>
+              <a id='auth' class="navbar-item" *ngIf='isLoggedIn()' (click)='logOut()'>
+                {{'HOME.PROFILE.ITEM_2' | translate}}
+              </a>
+              
+            </div>
+          </div>
+          <div class="make-flex" routerLink="/quick-order" routerLinkActive='active' (click)='setTitle("e-Kart Shopping Bag")'>
+            <em class="fas fa-shopping-bag color-orange fa-2x"></em>
+            <p >{{'HOME.BAG' | translate}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

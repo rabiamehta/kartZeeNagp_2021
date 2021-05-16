@@ -1,0 +1,112 @@
+{
+    "HOME": {
+        "LANGUAGE": "Langue",
+        "SEARCH": "Rechercher un produit par son tag",
+        "PROFILE": {
+            "TITLE": "Profilé",
+            "ITEM_1": "Connexion / Inscription",
+            "ITEM_2": "Se déconnecter"
+        },
+        "BAG": "Bag"
+    }, "FOOTER": {
+        "APP": "KartZee",
+        "BY": "par Rabia Mehta",
+        "UNDER": "Made under",
+        "ORG": "NAGP",
+        "PROG": "formation"
+    },
+    "LOGIN": {
+        "TITLE": "Connexion",
+        "LABELS":{
+            "EMAIL": "Email Id",
+            "PSW": "Mot de passe", 
+            "FORGOT_PSW": "Mot de passe oublié?",
+            "NOT_MEMBER": "Pas membre? ",
+            "REGISTER": "S'inscrire",
+            "SIGNIN": "ou connectez-vous avec"
+        },
+        "PLACEHOLDER":{
+            "EMAIL": "Saisissez l'ID de messagerie enregistré",
+            "PSW": "Entrez le mot de passe avec au moins 5 caractères"
+        },
+        "ERRORS":{
+            "EMAIL_REQ": "Courriel obligatoire",
+            "EMAIL_INVALID": "Le modèle d'e-mail n'est pas valide",
+            "PSW_REQ": "Le mot de passe est requis",
+            "PSW_INVALID": "La longueur du mot de passe est inférieure à celle requise"
+        },
+        "BUTTONS":{
+            "LOGIN": "Connexion"
+        }
+    },
+    "PRODUCT":{
+        "HOME": "Maison",
+        "SEARCH": "Chercher",
+        "BEST": "Meilleures ventes",
+        "PRD_404": " Aucun produit trouvé correspondant à la requête recherchée!",
+        "DETAIL": {
+            "TAX_TITLE": "(Toutes taxes comprises)",
+            "CATEGORY": "Catégorie",
+            "IN_STOCK": "Stocké",
+            "DESCRIPTION": "Descriptioén",
+            "TAGS": "Tagés",
+            "BUTTON": "Ajouter au panier"
+        }
+    },
+    "CART": {
+        "OUT_OF_STOCK_ALERT": "La quantité a atteint la quantité maximale disponible en stock!",
+        "HEADER": "Panier",
+        "ITEMS": "items",
+        "QTY": "Qty",
+        "REMOVE": "Supprimer l'élément",
+        "TAG_LINE": "Ne retardez pas l'achat, ajouter des articles à votre panier ne signifie pas les réserver.",
+        "EXPECTED_DELIVERY": {
+            "TITLE": "Livraison prévue",
+            "DATE": "Jeu., 12.03. - Lun., 16.03.",
+            "PAYMENT_MODE": "Nous acceptons"
+        },
+        "PRICE_DETAILS": {
+            "TITLE": "Détails du prix",
+            "SUB_TOTAL": "Montant du sous-total",
+            "SHIPPING": "Expédition",
+            "FREE": "GRATUIT",
+            "TOTAL_AMT": "Le montant total",
+            "VAT_NOTICE": "(TVA comprise)",
+            "DISCOUNT": "Ajouter un code de réduction (facultatif)"
+        },
+        "CHECKOUT": "Passer à la caisse"
+    },
+    "CHECKOUT": {
+        "DELIVERY_DETAILS": {
+            "TITLE": "Ajouter les détails de livraison",
+            "PLACEHOLDERS": {
+                "F_NAME": "Prénom",
+                "L_NAME": "Nom de famille",
+                "HINT_LABEL": "Max 10 caractères",
+                "ADDRESS": "Adresse",
+                "PINCODE": "PinCode",
+                "CITY": "Ville",
+                "MOBILE": "Numéro de portable"
+            },
+            "STATE": "State"
+        },
+        "PAYMENT_DETAILS": {
+            "LABEL": "Sélectionnez le mode de paiement",
+            "TITLE": "Veuillez sélectionner le mode de paiement!"
+        },
+        "ORDER": {
+            "STATUS": "Statut de la commande",
+            "MESSAGE": "Commande passée avec succès !! "
+        },
+        "BUTTONS": {
+            "NEXT": "Suivant",
+            "BACK": "retour",
+            "CONTINUE": "Continuer l'eKartingg"
+        }
+    },
+    "404": {
+        "TITLE": "Nous sommes désolés, Page introuvable!",
+        "SUB": "La page que vous recherchez a peut-être été supprimée si son nom a été modifié ou est temporairement indisponible.",
+        "BACK": "Go Back"
+    }
+}
