@@ -1,23 +1,23 @@
 <testExecutions version="1">
-  <file path="src/app/home/components/header/header.component.spec.ts">
-    <testCase name="HeaderComponent should create" duration="125"/>
-    <testCase name="HeaderComponent should show login/signUp button when user is not logged in" duration="25"/>
+  <file path="src/app/auth/components/login/login.component.spec.ts">
+    <testCase name="LoginComponent form should be invalid if field is empty" duration="85"/>
+    <testCase name="LoginComponent form should be invalid if not according to password requirements" duration="30"/>
+    <testCase name="LoginComponent component initial state" duration="17"/>
+    <testCase name="LoginComponent form should be invalid with invalid email address" duration="14"/>
+    <testCase name="LoginComponent testing login functionality" duration="20"/>
+    <testCase name="LoginComponent should create" duration="15"/>
   </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'Online eKarting platform for various sports, fitness equipments'" duration="14"/>
-    <testCase name="AppComponent should create the app" duration="7"/>
-  </file>
-  <file path="src/app/auth/components/login/login.component.spec.ts">
-    <testCase name="LoginComponent form should be invalid with invalid email address" duration="56"/>
-    <testCase name="LoginComponent form should be invalid if not according to password requirements" duration="20"/>
-    <testCase name="LoginComponent component initial state" duration="14"/>
-    <testCase name="LoginComponent form should be invalid if field is empty" duration="16"/>
-    <testCase name="LoginComponent should create" duration="19"/>
-    <testCase name="LoginComponent testing login functionality" duration="23"/>
+    <testCase name="AppComponent should have as title 'Online eKarting platform for various sports, fitness equipments'" duration="10"/>
+    <testCase name="AppComponent should create the app" duration="5"/>
   </file>
   <file path="src/app/core/services/login.service.spec.ts">
-    <testCase name="LoginService validateUser function returns false when user data does not exist in mock db" duration="9"/>
-    <testCase name="LoginService validateUser function returns true when user data exist in mock db" duration="4"/>
-    <testCase name="LoginService should be created" duration="5"/>
+    <testCase name="LoginService validateUser function returns false when user data does not exist in mock db" duration="7"/>
+    <testCase name="LoginService should be created" duration="4"/>
+    <testCase name="LoginService validateUser function returns true when user data exist in mock db" duration="5"/>
+  </file>
+  <file path="src/app/home/components/header/header.component.spec.ts">
+    <testCase name="HeaderComponent should show login/signUp button when user is not logged in" duration="48"/>
+    <testCase name="HeaderComponent should create" duration="20"/>
   </file>
 </testExecutions>
