@@ -39,8 +39,7 @@
           <div class="make-flex">
               <em><img src="../../../../assets/languages.png" alt="Language support"></em>
             <div class="select is-small">
-              <h4>{{'HOME.LANGUAGE' | translate}}</h4>
-            
+              <!-- <h5>{{'HOME.LANGUAGE' | translate}}</h5> -->
               <select #langSelect (change)="translate.use(langSelect.value)">
                 <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
               </select>

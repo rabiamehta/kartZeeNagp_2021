@@ -72,7 +72,7 @@
         "2kg",
         "strength"
       ],
-      "quantity": 3
+      "quantity": 1
     },
     {
       "id": 3,
@@ -565,7 +565,7 @@
     },
     {
       "id": 19,
-      "productName": "New Sport Item Table Tennis Red Table Tennis Racquet,Table Tennis Racket Red, Black Table Tennis Racquet Table Tennis Set for Kids (2 pcs of Racket, 3 pcs of Ball,177 Gram)",
+      "productName": "New Sport Item Table Tennis Red, Racquet, Black Racquet, Set for Kids (2 pcs of Racket, 3 pcs of Ball,177 Gram)",
       "image": "../../assets/products/tt_p1.jpg",
       "productDesc": "Speed: 50, Spin: 70, Control: 97, Meant for recreational use only, good for beginners, Ideal for senior and junior TT players",
       "mrp": 299,
@@ -767,7 +767,7 @@
         "Victall",
         "field"
       ],
-      "quantity": 8
+      "quantity": 7
     },
     {
       "id": 25,
@@ -1632,55 +1632,7 @@
       ]
     }
   ],
-  "cart": [
-    {
-      "product": {
-        "id": 2,
-        "productName": "Neoprene Dumbbell Pair, 2 x 2Kg",
-        "image": "../../assets/products/db_p2.jpg",
-        "productDesc": "Set of 2 dumbbells for resistance training; each dumbbell weighs 2 Kg. Easy-grip neoprene coating for a secure hold.",
-        "mrp": 1199,
-        "bestSeller": true,
-        "category": {
-          "id": 3,
-          "categoryName": "Strength Gears",
-          "subCategory": "Dumbbells"
-        },
-        "tags": [
-          "fitness",
-          "dumbbells",
-          "dumbbells",
-          "heoprene",
-          "neoprene dumbbell",
-          "home",
-          "gym",
-          "rubber",
-          "hexagon dumbbells",
-          "hex dumbbells",
-          "2kg",
-          "strength"
-        ],
-        "quantity": 3
-      },
-      "user": {
-        "name": "nagpUser",
-        "mobNumber": "1234567891",
-        "age": 27,
-        "dob": "1992-09-17",
-        "email": "nagp@gmail.com",
-        "password": "123456",
-        "address": "nbahgc",
-        "zipcode": "",
-        "gender": "Female",
-        "aboutYou": "I am learning angular concepts...",
-        "uploadPhoto": "",
-        "id": 1
-      },
-      "quantity": "1",
-      "orderPlacedOn": "2021-05-16T08:00:31.519Z",
-      "id": 1
-    }
-  ],
+  "cart": [],
   "states": [
     "AP|Andhra Pradesh",
     "AR|Arunachal Pradesh",
