@@ -28,7 +28,7 @@
         },
         "PLACEHOLDER": {
             "EMAIL": "Enter the registered email ID",
-            "PSW": "Enter the password with min 5 characters"
+            "PSW": "Enter the password"
         },
         "ERRORS": {
             "EMAIL_REQ": "Email is required",

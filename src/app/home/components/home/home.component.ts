@@ -17,7 +17,6 @@ export class HomeComponent {
   getScreenSize(event?): void {
     this.screenHeight = window.innerHeight;
     this.screenWidth = window.innerWidth;
-    console.log(this.screenHeight, this.screenWidth);
     // header and footer aprox
     this.footerMaxHeight = this.screenHeight - 130;
   }

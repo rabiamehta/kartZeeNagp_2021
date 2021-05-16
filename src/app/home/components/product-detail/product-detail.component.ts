@@ -60,7 +60,6 @@ export class ProductDetailComponent implements OnInit {
 
   addToCart(): void {
     this.tocart.addToCart(new Cart(this.product, this.user, 1, new Date())).subscribe(data => {
-      console.log('Item Added to Cart !!', data);
     }, error => {
       console.log('Error while adding item to Cart', error);
     });
@@ -68,7 +67,6 @@ export class ProductDetailComponent implements OnInit {
 
   updateCart(cartItem): void {
     this.tocart.updateCartItem(cartItem).subscribe(data => {
-      console.log('Item Quantity Updated in Cart !!', data);
     }, error => {
       console.log('Error while updating item in Cart', error);
     });

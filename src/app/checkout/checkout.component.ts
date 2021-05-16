@@ -24,7 +24,7 @@ export class CheckoutComponent implements OnInit {
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
       address: ['', Validators.required],
-      pincode: ['', [Validators.required, Validators.minLength(6)]],
+      pincode: ['', [Validators.required, Validators.minLength(6), Validators.pattern('^[1-9][0-9]{5}$')]],
       city: ['', [Validators.required, Validators.minLength(3)]],
       number: ['', [Validators.required, Validators.minLength(10), Validators.pattern('[0-9]{10}')]]
     });
@@ -44,10 +44,8 @@ export class CheckoutComponent implements OnInit {
           const product = cartItem.product;
           product.quantity -= cartItem.quantity;
           this.cartService.removeItemFromCart(cartItem.id).subscribe(data => {
-            console.log('Order for Cart Item', cartItem.id, ' placed and hence removed from cart');
           });
           this.productService.updateProduct(product).subscribe(data => {
-            console.log('product quantity updated in db !');
             this.orderPlaced = true;
           });
         }

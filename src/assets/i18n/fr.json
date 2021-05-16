@@ -27,7 +27,7 @@
         },
         "PLACEHOLDER":{
             "EMAIL": "Saisissez l'ID de messagerie enregistré",
-            "PSW": "Entrez le mot de passe avec au moins 5 caractères"
+            "PSW": "Entrez le mot de passe avec"
         },
         "ERRORS":{
             "EMAIL_REQ": "Courriel obligatoire",

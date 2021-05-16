@@ -1367,7 +1367,7 @@
         "Kore",
         "black"
       ],
-      "quantity": 13
+      "quantity": 12
     },
     {
       "id": 46,
@@ -1632,7 +1632,54 @@
       ]
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "product": {
+        "id": 51,
+        "productName": "Strauss Adjustable Chin Up Door Bar",
+        "image": "../../assets/products/br_p3.jpg",
+        "productDesc": "This is the ultimate training tool to develop your shoulders, back, and arms with STRONG HEAVY DUTY STEEL MATERIAL AND COMFY FOAM GRIPS. Simple assembly and portable. This tool helps to increase your upper body strength and the stamina in your arms and shoulders by adding a few sessions with this Product to your routine.",
+        "mrp": 699,
+        "bestSeller": false,
+        "category": {
+          "id": 3,
+          "categoryName": "Strength Gears",
+          "subCategory": "Bars"
+        },
+        "tags": [
+          "fitness",
+          "exercise",
+          "bars",
+          "strength",
+          "pull-up bar",
+          "indoor",
+          "bar",
+          "gym",
+          "home",
+          "workouts",
+          "Strauss"
+        ],
+        "quantity": 10
+      },
+      "user": {
+        "name": "nagpUser",
+        "mobNumber": "1234567891",
+        "age": 27,
+        "dob": "1992-09-17",
+        "email": "nagp@gmail.com",
+        "password": "123456",
+        "address": "nbahgc",
+        "zipcode": "",
+        "gender": "Female",
+        "aboutYou": "I am learning angular concepts...",
+        "uploadPhoto": "",
+        "id": 1
+      },
+      "quantity": "1",
+      "orderPlacedOn": "2021-05-16T16:19:05.040Z",
+      "id": 1
+    }
+  ],
   "states": [
     "AP|Andhra Pradesh",
     "AR|Arunachal Pradesh",

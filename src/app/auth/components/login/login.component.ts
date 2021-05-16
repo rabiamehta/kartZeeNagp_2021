@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     this.titleService.setTitle('e-kart Authentication');
     this.loginForm = this.formBuilder.group({
       email: this.formBuilder.control('', [Validators.required, Validators.email]),
-      password: this.formBuilder.control('', [Validators.required, Validators.minLength(5)])
+      password: this.formBuilder.control('', [Validators.required])
     });
 
   }

@@ -46,13 +46,11 @@ export class CartComponent implements OnInit, OnDestroy {
       this.totalCartPrice -= (Number(item.quantity) * Number(item.product.mrp));
       item.quantity = event.target.value;
       this.$cartServiceSubscription = this.cartService.updateCartItem(item).subscribe(data => {
-        console.log('Item\'s quantity updated in cart', data);
         this.totalCartPrice += (Number(item.quantity) * Number(item.product.mrp));
       }, error => {
         console.log('Error while updating the item\'s quantity in cart', error);
       });
     } else {
-      console.log('This quantity is not in stock !!');
       this.notInStockAlert = true;
     }
   }
@@ -64,7 +62,6 @@ export class CartComponent implements OnInit, OnDestroy {
         sessionStorage.setItem('itemsInCart', this.cartArr.length.toString());
       });
       this.totalCartPrice -= (Number(item.quantity) * Number(item.product.mrp));
-      console.log('Item deleted from Cart Successfuly !!', val);
     }, error => {
       console.log('Error deleting item from cart', error);
     });

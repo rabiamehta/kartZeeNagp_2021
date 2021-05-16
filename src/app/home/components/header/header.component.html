@@ -30,7 +30,7 @@
           <p class="control has-icons-left">
             <input class="input input-size-bigger form-control" #search type="text" [(ngModel)]="searchedKeyword"
               (keyup.enter)="onSearchTermChange()" placeholder="{{'HOME.SEARCH' | translate}}" (click)='setTitle("e-Kart Searching")'>
-            <span class="icon is-left">
+            <span class="icon is-right">
               <em class="fas fa-search" aria-hidden="true"></em>
             </span>
           </p>
@@ -39,7 +39,6 @@
           <div class="make-flex">
               <em><img src="../../../../assets/languages.png" alt="Language support"></em>
             <div class="select is-small">
-              <!-- <h5>{{'HOME.LANGUAGE' | translate}}</h5> -->
               <select #langSelect (change)="translate.use(langSelect.value)">
                 <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
               </select>
