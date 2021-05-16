@@ -12,7 +12,8 @@ Install json-server `npm i -g json-server` and run `json-server .\mocks\data\moc
 Json-server mocked apis can be then accessed at  `http://localhost:3000`.  
 
 ## Deployment Step
-To run application locally,  
+To run application locally, 
+Do `npm i ` as first step & 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  
 
 To access already deployed application,  

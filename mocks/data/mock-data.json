@@ -72,7 +72,7 @@
         "2kg",
         "strength"
       ],
-      "quantity": 1
+      "quantity": 0
     },
     {
       "id": 3,
@@ -248,7 +248,7 @@
         "sports",
         "cocks"
       ],
-      "quantity": 12
+      "quantity": 11
     },
     {
       "id": 9,
@@ -327,7 +327,7 @@
         "sports",
         "outdoor"
       ],
-      "quantity": 4
+      "quantity": 3
     },
     {
       "id": 12,
@@ -593,7 +593,7 @@
         "wood",
         "CkiTech"
       ],
-      "quantity": 4
+      "quantity": 3
     },
     {
       "id": 20,
@@ -767,7 +767,7 @@
         "Victall",
         "field"
       ],
-      "quantity": 7
+      "quantity": 6
     },
     {
       "id": 25,
@@ -1632,55 +1632,7 @@
       ]
     }
   ],
-  "cart": [
-    {
-      "product": {
-        "id": 2,
-        "productName": "Neoprene Dumbbell Pair, 2 x 2Kg",
-        "image": "../../assets/products/db_p2.jpg",
-        "productDesc": "Set of 2 dumbbells for resistance training; each dumbbell weighs 2 Kg. Easy-grip neoprene coating for a secure hold.",
-        "mrp": 1199,
-        "bestSeller": true,
-        "category": {
-          "id": 3,
-          "categoryName": "Strength Gears",
-          "subCategory": "Dumbbells"
-        },
-        "tags": [
-          "fitness",
-          "dumbbells",
-          "dumbbells",
-          "heoprene",
-          "neoprene dumbbell",
-          "home",
-          "gym",
-          "rubber",
-          "hexagon dumbbells",
-          "hex dumbbells",
-          "2kg",
-          "strength"
-        ],
-        "quantity": 1
-      },
-      "user": {
-        "name": "nagpUser",
-        "mobNumber": "1234567891",
-        "age": 27,
-        "dob": "1992-09-17",
-        "email": "nagp@gmail.com",
-        "password": "123456",
-        "address": "nbahgc",
-        "zipcode": "",
-        "gender": "Female",
-        "aboutYou": "I am learning angular concepts...",
-        "uploadPhoto": "",
-        "id": 1
-      },
-      "quantity": 1,
-      "orderPlacedOn": "2021-05-16T12:59:40.977Z",
-      "id": 1
-    }
-  ],
+  "cart": [],
   "states": [
     "AP|Andhra Pradesh",
     "AR|Arunachal Pradesh",
