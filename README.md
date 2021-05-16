@@ -6,11 +6,12 @@ Application displays list of the sports/fitness equpments. Home page reflects th
 End user will be able to search any product based on the `tags` assigned to each product, view details/description of product, add product to cart and checkout.  
 Only authorised user can add product to cart and buy products.  
 
-## Development server
+## Pre Deployment Step
 `Json-Server` is used to mock apis for JSON data as backend.  
 Install json-server `npm i -g json-server` and run `json-server .\mocks\data\mock-data.json` from root directory of project.
 Json-server mocked apis can be then accessed at  `http://localhost:3000`.  
 
+## Deployment Step
 To run application locally,  
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  
 
